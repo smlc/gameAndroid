@@ -1,4 +1,4 @@
-package game.project.smlc.metier;
+package game.project.smlc.heart;
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;

@@ -1,9 +1,7 @@
-package game.project.smlc.metier;
+package game.project.smlc.heart;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Rect;
-import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -11,7 +9,10 @@ import android.view.SurfaceView;
  * Created by Smlc on 10/05/2016.
  */
 public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
+
     private BallThread ballThread;
+    private Background background;
+
     public GamePanel(Context context) {
         super(context);
 
@@ -26,7 +27,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     @Override
     public void draw(Canvas pCanvas) {
         super.draw(pCanvas);
-        
+
     }
 
     @Override
